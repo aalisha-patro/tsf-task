@@ -3,11 +3,7 @@
 	padding: 0;
 	margin: 0;
 }
-.wrapper{
-	background: url(images/bg.jpg);
-	background-size: cover;
-	height: 100vh;
-}
+
 .navbar{
 	position: fixed;
 	height: 80px;
@@ -34,7 +30,7 @@
 .navbar ul li a{
 	font-size: 20px;
 	font-family:"Comic Sans MS", cursive, sans-serif;
-	color: rgb(218, 227, 233);
+	color: white;
 	padding: 6px 13px;
 	text-decoration: none;
 	transition: .4s;
@@ -53,9 +49,9 @@
 	user-select: none;
 }
 .center h1{
-	color: #131010;
-	font-size: 50px;
-	font-family:"cursive";
+	color: #0c0c0c;
+	font-size: 20px;
+	font-family:Verdana;
 	text-transform: uppercase;
 	width: 900px;
 	font-weight: bold;
@@ -63,18 +59,17 @@
 }
 .center .buttons{
 	margin: 35px 280px;
-	font-family:"sans-serif";
-} 
+}
 .buttons button{
 	height: 50px;
 	width: 150px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #0b0b0ebe;
-	background: rgb(133, 145, 151);
+	color: #ffb3b3;
+	background: rgb(0, 255, 98);
 	outline: none;
 	cursor: pointer;
-	border: 1px solid #2e3033;
+	border: 1px solid #29cc00;
 	border-radius: 25px;
 	transition: .4s;
 }
@@ -82,5 +77,5 @@
 	margin-left: 25px;
 }
 .buttons button:hover{
-	background: #fdffddf8;
+	background: #00cc33;
 }
